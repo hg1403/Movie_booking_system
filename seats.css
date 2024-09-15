@@ -1,0 +1,62 @@
+body {
+    background-color: aquamarine;
+}
+
+.head {
+    text-align: center;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 100px;
+    column-gap: 100px;
+}
+
+.seats .one {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-right: -15px;
+    height: 50vh;
+    border: 2px solid black;
+}
+
+.seats .two {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    padding-left: 20px;
+    padding-top: 30px;
+    height: 50vh;
+    border: 2px solid black;
+}
+
+.seats .one div,
+.seats .two div {
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 300px;
+    justify-content: center;
+    text-align: center;
+    gap: 12px;
+    width: 70px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.alpha {
+    background-color: brown;
+}
+
+.seats .one div:hover,
+.seats .two div:hover {
+    background-color: green;
+    color: white;
+}
+
+.seats .one .alpha:hover {
+    background-color: brown;
+    color: black;
+}
